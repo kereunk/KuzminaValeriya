@@ -5,7 +5,7 @@
 
 Верстальщик верстает html файл.
 IDEF0:
-[https://github.com/kereunk/KuzminaValeriya.github.io/blob/master/lab1/ramus.png]
+[none][https://github.com/kereunk/KuzminaValeriya.github.io/blob/master/lab1/ramus.png]
 
 Верстальщик должен верстать html файлы в соответствии с рабочим графиком, используя макеты дизайна и ПО Visual Studio Code.
 
