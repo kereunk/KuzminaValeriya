@@ -1,0 +1,12 @@
+@startuml
+skinparam class {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+class "Верстальщик" as P {
+ Visual Studio Code 
+Верстать (Макет дизайна, Рабочий график) -> html файл
+}
+hide circle
+@enduml
