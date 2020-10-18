@@ -6,15 +6,15 @@
 Верстальщик верстает html файл.
 
 IDEF0:           
-![Image alt](https://github.com/kereunk/KuzminaValeriya.github.io/blob/master/lab1/ramus.png)
+![Image alt](https://github.com/kereunk/KuzminaValeriya.github.io/blob/master/lab1/ramus.png?raw=True)
       
 Верстальщик должен верстать html файлы в соответствии с рабочим графиком, используя макеты дизайна и ПО Visual Studio Code.
        
 Диаграмма классов:                   
-![](https://github.com/kereunk/KuzminaValeriya.github.io/blob/master/lab1/uml_class.png)
+![](https://github.com/kereunk/KuzminaValeriya.github.io/blob/master/lab1/uml_class.png?raw=True)
        
 Диаграмма прецедентов:        
-![](https://github.com/kereunk/KuzminaValeriya.github.io/blob/master/lab1/%D0%BF%D1%80%D0%B5%D1%86%D0%B5%D0%B4%D0%B5%D0%BD%D1%82%D1%8B.png)
+![](https://github.com/kereunk/KuzminaValeriya.github.io/blob/master/lab1/%D0%BF%D1%80%D0%B5%D1%86%D0%B5%D0%B4%D0%B5%D0%BD%D1%82%D1%8B.png?raw=True)
         
 ## Лабораторная 2
 
