@@ -33,7 +33,10 @@ DFD Тестирование:
 А3 - Тестирует код одобренный код html в соответствии с написанным тест-кейсом и рабочим графиком в Google Chrome.  
 А4 - При пройденных тест-кейсах тестировщик закрывает проверяемую ишью в Jira в соответствии с рабочим графиком.   
 А5 - При непройденных тест-кейсах тестировщик создает новые ишью со статусом дефект в Jira в соотвтствии с рабочим графиком.  
-![Image alt](https://github.com/kereunk/KuzminaValeriya.github.io/blob/master/lab%202/3.png?raw=True)       
+![Image alt](https://github.com/kereunk/KuzminaValeriya.github.io/blob/master/lab%202/3.png?raw=True)    
+
+Диаграмма прецедентов:     
+![Image alt](https://github.com/kereunk/KuzminaValeriya.github.io/blob/master/lab%202/fP71IiD048RFdQSOSceF1Hz0fAat8P2RvoLPswLfLYORF5WXhI9u4i63Lts28WQAc3x3x1ivCIrKyEPXOVZd-t_-OKU5K-JAUGR5pEINYjGSLU8iuJNqnYgPJSYMUNfgCv7EfyPfw8L4zgfJnfaW0bfADHrADmTvPQ4JLUX_9sRwmg6pI6OoTPWQqeap.png?raw=True)   
 
 ## Лабораторная 3
 
