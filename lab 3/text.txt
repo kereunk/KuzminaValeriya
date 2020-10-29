@@ -1,1 +1,15 @@
-
+@startuml
+actor ": Верстальщик" as owner
+boundary "Jira" as app
+entity "Данные" as data
+boundary "Jira" as appmob
+actor ": Тимлид" as trainee
+owner -> app : Запрос
+app -> data : Обработка
+data -> appmob : Статус ишью "разработка окончена"
+appmob -> trainee : Данные ишью
+trainee -> appmob : Подтверждение
+appmob -> data : Обработка
+data -> app : Ответ
+app -> owner : Статус ишью "code review"
+@enduml
