@@ -1,0 +1,13 @@
+@startuml
+component [Сторонние модули HRM-системы] as H
+component [База данных] as DB
+component [Web-приложение] as W
+
+() "LAN" as I1
+() "LAN" as I2
+
+H - I1
+I1 - W
+W - I2
+I2 - DB
+@enduml
