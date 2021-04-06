@@ -3,7 +3,7 @@ component [Сторонние модули HRM-системы] as H
 component [База данных] as DB
 component [Web-приложение] as W
 
-() "LAN" as I1
+() "HTTP API" as I1
 () "LAN" as I2
 
 H - I1
