@@ -1,4 +1,10 @@
 @startuml
+skinparam actor {
+BackgroundColor White
+ArrowColor Black
+BorderColor Black
+
+}
 actor "Сотрудник"
 participant "Веб-приложение"
 database "База данных"
