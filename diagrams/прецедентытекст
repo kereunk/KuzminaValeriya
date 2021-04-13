@@ -17,6 +17,12 @@ ArrowColor Black
 BorderColor Black
 }
 
+skinparam sequence {
+BackgroundColor White
+ArrowColor Black
+BorderColor Black
+LifeLineBorderColor Black
+}
 
 actor "Сотрудник"
 participant "Веб-приложение"
