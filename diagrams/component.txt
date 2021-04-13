@@ -1,4 +1,16 @@
 @startuml
+skinparam component {
+BackgroundColor White
+ArrowColor Black
+BorderColor Black
+}
+
+skinparam interface {
+BackgroundColor White
+ArrowColor Black
+BorderColor Black
+}
+
 component [Сторонние модули HRM-системы] as H
 component [База данных] as DB
 component [Web-приложение] as W
