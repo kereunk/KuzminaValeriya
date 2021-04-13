@@ -1,4 +1,16 @@
 @startuml
+skinparam actor {
+BackgroundColor White
+ArrowColor Black
+BorderColor Black
+}
+
+skinparam usecase {
+BackgroundColor White
+ArrowColor Black
+BorderColor Black
+}
+
 left to right direction
 
 actor "Сотрудник"
