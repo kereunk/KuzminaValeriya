@@ -13,13 +13,73 @@ BorderColor Black
 
 component [Сторонние модули HRM-системы] as H
 component [База данных] as DB
-component [Web-приложение] as W
 
-() "HTTP API" as I1
+() "HTTP" as I1
 () "LAN" as I2
 
+
+package "ESS-модуль" as ESS {
+
+package "Front-End" {
+
+package "template" {
+component template [
+"file"
+
+template.html
+]
+}
+
+package "style" {
+component style [
+"file"
+
+style.css
+]
+}
+
+package "javascript" {
+component javascript [
+"file"
+
+javascript.js
+]
+}
+}
+
+package "Back-End" { 
+component api [
+"file"
+
+api.py
+]
+
+component models [
+"file"
+
+models.py
+]
+
+component urls [
+"file"
+
+urls.py
+]
+
+component views [
+"file"
+
+views.py
+]
+}
+}
+
+
+database "PostgreSQL" as DB{
+}
+
 H - I1
-I1 - W
-W - I2
+I1 - ESS
+ESS - I2
 I2 - DB
 @enduml
