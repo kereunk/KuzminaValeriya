@@ -1,0 +1,86 @@
+@startuml
+skinparam component {
+BackgroundColor White
+ArrowColor Black
+BorderColor Black
+}
+
+skinparam interface {
+BackgroundColor White
+ArrowColor Black
+BorderColor Black
+}
+
+component [Сторонние модули HRM-системы] as H
+component [База данных] as DB
+
+() "HTTP" as I1
+() "LAN" as I2
+
+
+package "ESS-модуль" as ESS {
+
+component template [
+Авторизация
+]
+
+
+
+component profile [
+Личный профиль
+]
+
+component career [
+Планирование карьеры
+]
+
+
+component api [
+API
+]
+
+component goals [
+Цели
+]
+
+component grade [
+Оценка 360 градусов
+]
+
+component review [
+Perfomance Review
+]
+
+component team [
+Команды
+]
+
+
+component department [
+Отделы
+]
+
+component position [
+Профиль должности
+]
+
+component settings [
+Настройки
+]
+
+component matrix [
+Матрица навыков
+]
+
+}
+
+
+
+database "PostgreSQL" as DB{
+}
+
+H - I1
+I1 - ESS
+ESS - I2
+I2 - DB
+@enduml
